@@ -26,10 +26,18 @@ Custom features
 #### Level-party
 The plugin uses the [level-party](https://github.com/substack/level-party) module to get over the level multi-process restrictions.
 
+#### Refresh Cache
+Any request submitted from localhost with the user-agent of "RefreshCache" will force the requested page to be re-cached.
+
+Example:
+```
+curl --retry 5 -m 1 -k -f -A "RefreshCache" "http://example.com"
+```
+
 #### Freshness
 You can pass a per-request max age parameter to req.freshness, through other prerender plugins, to customize the cache freshness (set to one month by default):
 
-Exemple:
+Example:
 ```javascript
 // in another plugin placed before prerender-level-cache
 module.exports = {
