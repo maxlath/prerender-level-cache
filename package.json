@@ -2,10 +2,11 @@
   "name": "prerender-level-cache",
   "version": "1.0.1",
   "description": "Prerender plugin for level caching",
-  "main": "index.js",
+  "main": "lib/levelCache.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [ "lib" ],
   "repository": {
     "type": "git",
     "url": "git://github.com/maxlath/prerender-level-cache.git"
@@ -26,5 +27,11 @@
     "cache-manager": "^2.4.0",
     "level-party": "^4.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 8"
+  },
+  "directories": {
+    "lib": "lib"
+  }
 }
