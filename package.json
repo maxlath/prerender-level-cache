@@ -15,7 +15,7 @@
     "level",
     "cache"
   ],
-  "author": "Maxime Lathuilière",
+  "author": "maxlath",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/maxlath/prerender-level-cache/issues"
