@@ -1,7 +1,8 @@
 # CHANGELOG
 *versions follow [SemVer](http://semver.org)*
 
-## 2.1.0 - 2019-12-22
+## 3.0.0 - 2020-06-03
+**BREAKING CHANGES**: the database structure has been changed. You need to delete the previous database to restart with the new format.
 * Add support for non-200 status code
 * Store and return 301, 302 `location` header
 
