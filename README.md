@@ -38,7 +38,7 @@ module.exports = {
 }
 ```
 
-Alternatively, you can delete the cache directly in the LevelDB database, using a tool such as [lev2](https://github.com/maxlath/lev2).
+Alternatively, you can delete the cache directly in the LevelDB database, using a tool such as [lev2](https://codeberg.org/maxlath/lev2).
 
 ### Level-party
 The plugin uses the [level-party](https://github.com/substack/level-party) module to get over the level multi-process restrictions.
